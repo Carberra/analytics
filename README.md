@@ -44,14 +44,14 @@ If you prefer not to use Poetry, you can install using pip instead:
 pip install google google-api-python-client google-auth-oauthlib pandas
 ```
 
-## Running the script
+## Usage
 
-1. Edit lines 91 through 97 of `scripts/retrieve_analytics.py` to suit your needs.
-2. Change directory into the `scripts` directory.
-3. Run the following command:
+1. Change directory into the `scripts` directory.
+2. To see what options you can parse, run:
 ```sh
-python retrieve_analytics.py
+python retrieve_analytics.py -h
 ```
+3. Run the script with the desired options.
 4. Open the provided link in the browser, and follow the on-screen instructions.
 5. Copy the provided code into the terminal, and press ENTER.
 

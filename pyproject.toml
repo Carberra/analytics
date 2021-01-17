@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "youtube-analytics-retriever"
+version = "0.1.0"
+description = "A helper script for getting YouTube analytics."
+
+license = "BSD-3-Clause"
+repository = "https://github.com/Carberra/analytics"
+readme = "README.md"
+
+authors = [
+    "Ethan Henderson <parafoxia@carberra.xyz>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google = "^3.0.0"
+google-api-python-client = "^1.12.8"
+google-auth-oauthlib = "^0.4.2"
+pandas = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
